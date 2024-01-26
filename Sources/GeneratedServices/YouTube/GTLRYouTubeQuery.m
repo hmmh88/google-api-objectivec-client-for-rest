@@ -868,7 +868,7 @@ NSString * const kGTLRYouTubeVideoTypeVideoTypeUnspecified = @"videoTypeUnspecif
 @implementation GTLRYouTubeQuery_LiveBroadcastsBind
 
 @dynamic identifier, onBehalfOfContentOwner, onBehalfOfContentOwnerChannel,
-         part, streamId;
+         onBehalfOfChannel, part, streamId;
 
 + (NSDictionary<NSString *, NSString *> *)parameterNameMap {
   return @{ @"identifier" : @"id" };
@@ -899,7 +899,7 @@ NSString * const kGTLRYouTubeVideoTypeVideoTypeUnspecified = @"videoTypeUnspecif
 
 @implementation GTLRYouTubeQuery_LiveBroadcastsDelete
 
-@dynamic identifier, onBehalfOfContentOwner, onBehalfOfContentOwnerChannel;
+@dynamic identifier, onBehalfOfContentOwner, onBehalfOfContentOwnerChannel, onBehalfOfChannel;
 
 + (NSDictionary<NSString *, NSString *> *)parameterNameMap {
   return @{ @"identifier" : @"id" };
@@ -920,7 +920,7 @@ NSString * const kGTLRYouTubeVideoTypeVideoTypeUnspecified = @"videoTypeUnspecif
 
 @implementation GTLRYouTubeQuery_LiveBroadcastsInsert
 
-@dynamic onBehalfOfContentOwner, onBehalfOfContentOwnerChannel, part;
+@dynamic onBehalfOfContentOwner, onBehalfOfContentOwnerChannel, onBehalfOfChannel, part;
 
 + (NSDictionary<NSString *, Class> *)arrayPropertyToClassMap {
   NSDictionary<NSString *, Class> *map = @{
@@ -990,7 +990,7 @@ NSString * const kGTLRYouTubeVideoTypeVideoTypeUnspecified = @"videoTypeUnspecif
 @implementation GTLRYouTubeQuery_LiveBroadcastsList
 
 @dynamic broadcastStatus, broadcastType, identifier, maxResults, mine,
-         onBehalfOfContentOwner, onBehalfOfContentOwnerChannel, pageToken, part;
+         onBehalfOfContentOwner, onBehalfOfContentOwnerChannel, onBehalfOfChannel, pageToken, part;
 
 + (NSDictionary<NSString *, NSString *> *)parameterNameMap {
   return @{ @"identifier" : @"id" };
@@ -1021,7 +1021,7 @@ NSString * const kGTLRYouTubeVideoTypeVideoTypeUnspecified = @"videoTypeUnspecif
 @implementation GTLRYouTubeQuery_LiveBroadcastsTransition
 
 @dynamic broadcastStatus, identifier, onBehalfOfContentOwner,
-         onBehalfOfContentOwnerChannel, part;
+         onBehalfOfContentOwnerChannel, onBehalfOfChannel, part;
 
 + (NSDictionary<NSString *, NSString *> *)parameterNameMap {
   return @{ @"identifier" : @"id" };
@@ -1054,7 +1054,7 @@ NSString * const kGTLRYouTubeVideoTypeVideoTypeUnspecified = @"videoTypeUnspecif
 
 @implementation GTLRYouTubeQuery_LiveBroadcastsUpdate
 
-@dynamic onBehalfOfContentOwner, onBehalfOfContentOwnerChannel, part;
+@dynamic onBehalfOfContentOwner, onBehalfOfContentOwnerChannel, onBehalfOfChannel, part;
 
 + (NSDictionary<NSString *, Class> *)arrayPropertyToClassMap {
   NSDictionary<NSString *, Class> *map = @{
@@ -1303,7 +1303,7 @@ NSString * const kGTLRYouTubeVideoTypeVideoTypeUnspecified = @"videoTypeUnspecif
 
 @implementation GTLRYouTubeQuery_LiveStreamsDelete
 
-@dynamic identifier, onBehalfOfContentOwner, onBehalfOfContentOwnerChannel;
+@dynamic identifier, onBehalfOfContentOwner, onBehalfOfContentOwnerChannel, onBehalfOfChannel;
 
 + (NSDictionary<NSString *, NSString *> *)parameterNameMap {
   return @{ @"identifier" : @"id" };
@@ -1324,7 +1324,7 @@ NSString * const kGTLRYouTubeVideoTypeVideoTypeUnspecified = @"videoTypeUnspecif
 
 @implementation GTLRYouTubeQuery_LiveStreamsInsert
 
-@dynamic onBehalfOfContentOwner, onBehalfOfContentOwnerChannel, part;
+@dynamic onBehalfOfContentOwner, onBehalfOfContentOwnerChannel, onBehalfOfChannel, part;
 
 + (NSDictionary<NSString *, Class> *)arrayPropertyToClassMap {
   NSDictionary<NSString *, Class> *map = @{
@@ -1358,7 +1358,7 @@ NSString * const kGTLRYouTubeVideoTypeVideoTypeUnspecified = @"videoTypeUnspecif
 @implementation GTLRYouTubeQuery_LiveStreamsList
 
 @dynamic identifier, maxResults, mine, onBehalfOfContentOwner,
-         onBehalfOfContentOwnerChannel, pageToken, part;
+         onBehalfOfContentOwnerChannel, onBehalfOfChannel, pageToken, part;
 
 + (NSDictionary<NSString *, NSString *> *)parameterNameMap {
   return @{ @"identifier" : @"id" };
@@ -1388,7 +1388,7 @@ NSString * const kGTLRYouTubeVideoTypeVideoTypeUnspecified = @"videoTypeUnspecif
 
 @implementation GTLRYouTubeQuery_LiveStreamsUpdate
 
-@dynamic onBehalfOfContentOwner, onBehalfOfContentOwnerChannel, part;
+@dynamic onBehalfOfContentOwner, onBehalfOfContentOwnerChannel, onBehalfOfChannel, part;
 
 + (NSDictionary<NSString *, Class> *)arrayPropertyToClassMap {
   NSDictionary<NSString *, Class> *map = @{
