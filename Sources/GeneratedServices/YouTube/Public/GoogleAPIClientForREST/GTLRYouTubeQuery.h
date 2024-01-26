@@ -2053,6 +2053,12 @@ FOUNDATION_EXTERN NSString * const kGTLRYouTubeVideoTypeVideoTypeUnspecified;
 @property(nonatomic, copy, nullable) NSString *onBehalfOfContentOwnerChannel;
 
 /**
+ *  External channel ID for which the live broadcast should be created, for
+ *  delegation.
+ */
+@property(nonatomic, copy, nullable) NSString *onBehalfOfChannel;
+
+/**
  *  The *part* parameter specifies a comma-separated list of one or more
  *  liveBroadcast resource properties that the API response will include. The
  *  part names that you can include in the parameter value are id, snippet,
@@ -2133,6 +2139,12 @@ FOUNDATION_EXTERN NSString * const kGTLRYouTubeVideoTypeVideoTypeUnspecified;
 @property(nonatomic, copy, nullable) NSString *onBehalfOfContentOwnerChannel;
 
 /**
+ *  External channel ID for which the live broadcast should be created, for
+ *  delegation.
+ */
+@property(nonatomic, copy, nullable) NSString *onBehalfOfChannel;
+
+/**
  *  Upon successful completion, the callback's object and error parameters will
  *  be nil. This query does not fetch an object.
  *
@@ -2189,6 +2201,12 @@ FOUNDATION_EXTERN NSString * const kGTLRYouTubeVideoTypeVideoTypeUnspecified;
  *  credentials for each separate channel.
  */
 @property(nonatomic, copy, nullable) NSString *onBehalfOfContentOwnerChannel;
+
+/**
+ *  External channel ID for which the live broadcast should be created, for
+ *  delegation.
+ */
+@property(nonatomic, copy, nullable) NSString *onBehalfOfChannel;
 
 /**
  *  The *part* parameter serves two purposes in this operation. It identifies
@@ -2389,6 +2407,12 @@ FOUNDATION_EXTERN NSString * const kGTLRYouTubeVideoTypeVideoTypeUnspecified;
 @property(nonatomic, copy, nullable) NSString *onBehalfOfContentOwnerChannel;
 
 /**
+ *  External channel ID for which the live broadcast should be created, for
+ *  delegation.
+ */
+@property(nonatomic, copy, nullable) NSString *onBehalfOfChannel;
+
+/**
  *  The *pageToken* parameter identifies a specific page in the result set that
  *  should be returned. In an API response, the nextPageToken and prevPageToken
  *  properties identify other pages that could be retrieved.
@@ -2493,6 +2517,12 @@ FOUNDATION_EXTERN NSString * const kGTLRYouTubeVideoTypeVideoTypeUnspecified;
 @property(nonatomic, copy, nullable) NSString *onBehalfOfContentOwnerChannel;
 
 /**
+ *  External channel ID for which the live broadcast should be created, for
+ *  delegation.
+ */
+@property(nonatomic, copy, nullable) NSString *onBehalfOfChannel;
+
+/**
  *  The *part* parameter specifies a comma-separated list of one or more
  *  liveBroadcast resource properties that the API response will include. The
  *  part names that you can include in the parameter value are id, snippet,
@@ -2577,6 +2607,12 @@ FOUNDATION_EXTERN NSString * const kGTLRYouTubeVideoTypeVideoTypeUnspecified;
  *  credentials for each separate channel.
  */
 @property(nonatomic, copy, nullable) NSString *onBehalfOfContentOwnerChannel;
+
+/**
+ *  External channel ID for which the live broadcast should be created, for
+ *  delegation.
+ */
+@property(nonatomic, copy, nullable) NSString *onBehalfOfChannel;
 
 /**
  *  The *part* parameter serves two purposes in this operation. It identifies
@@ -3009,6 +3045,12 @@ FOUNDATION_EXTERN NSString * const kGTLRYouTubeVideoTypeVideoTypeUnspecified;
 @property(nonatomic, copy, nullable) NSString *onBehalfOfContentOwnerChannel;
 
 /**
+ *  External channel ID for which the live broadcast should be created, for
+ *  delegation.
+ */
+@property(nonatomic, copy, nullable) NSString *onBehalfOfChannel;
+
+/**
  *  Upon successful completion, the callback's object and error parameters will
  *  be nil. This query does not fetch an object.
  *
@@ -3065,6 +3107,12 @@ FOUNDATION_EXTERN NSString * const kGTLRYouTubeVideoTypeVideoTypeUnspecified;
  *  credentials for each separate channel.
  */
 @property(nonatomic, copy, nullable) NSString *onBehalfOfContentOwnerChannel;
+
+/**
+ *  External channel ID for which the live broadcast should be created, for
+ *  delegation.
+ */
+@property(nonatomic, copy, nullable) NSString *onBehalfOfChannel;
 
 /**
  *  The *part* parameter serves two purposes in this operation. It identifies
@@ -3157,6 +3205,12 @@ FOUNDATION_EXTERN NSString * const kGTLRYouTubeVideoTypeVideoTypeUnspecified;
 @property(nonatomic, copy, nullable) NSString *onBehalfOfContentOwnerChannel;
 
 /**
+ *  External channel ID for which the live broadcast should be created, for
+ *  delegation.
+ */
+@property(nonatomic, copy, nullable) NSString *onBehalfOfChannel;
+
+/**
  *  The *pageToken* parameter identifies a specific page in the result set that
  *  should be returned. In an API response, the nextPageToken and prevPageToken
  *  properties identify other pages that could be retrieved.
@@ -3234,6 +3288,12 @@ FOUNDATION_EXTERN NSString * const kGTLRYouTubeVideoTypeVideoTypeUnspecified;
  *  credentials for each separate channel.
  */
 @property(nonatomic, copy, nullable) NSString *onBehalfOfContentOwnerChannel;
+
+/**
+ *  External channel ID for which the live broadcast should be created, for
+ *  delegation.
+ */
+@property(nonatomic, copy, nullable) NSString *onBehalfOfChannel;
 
 /**
  *  The *part* parameter serves two purposes in this operation. It identifies
